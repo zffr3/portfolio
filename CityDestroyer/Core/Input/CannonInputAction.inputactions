@@ -1,0 +1,107 @@
+{
+    "name": "CannonInputAction",
+    "maps": [
+        {
+            "name": "Cannon",
+            "id": "d7129ffd-5648-4bc9-93c6-9fe775c00927",
+            "actions": [
+                {
+                    "name": "xAxis",
+                    "type": "PassThrough",
+                    "id": "504d0aa2-c437-4943-a220-50c0457a4e18",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "yAxis",
+                    "type": "PassThrough",
+                    "id": "2ba42745-57a9-4a0d-aec5-86905ea06814",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AllowRotation",
+                    "type": "Button",
+                    "id": "d9ddbf80-7f04-40bd-b6da-f4c3849b9443",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "713a9fc9-5864-445c-8cc0-c0c753d6caf0",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "xAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6423bbe7-e0bf-4533-aad0-c146410c2efc",
+                    "path": "<Touchscreen>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "xAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ed6f9e7-422a-41a1-8f1d-59f76ac0e31c",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "yAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1427df62-3a0a-45e1-94a2-214b90490f99",
+                    "path": "<Touchscreen>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "yAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e4ae1e1-a4ca-4ce6-aee5-d10c0b90d64b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AllowRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d314536-e246-49bc-9d26-1ac3603d8ac0",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AllowRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
