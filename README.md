@@ -4,7 +4,7 @@
  <hr>
    <ul>
      <li>https://store.steampowered.com/app/882980/Night_Of_the_Loving_Dead/</li>
-     <li>https://store.steampowered.com/app/882980/Night_Of_the_Loving_Dead/ Гена</li>
+     <li>https://store.steampowered.com/app/882980/Night_Of_the_Loving_Dead/</li>
      <li>https://store.steampowered.com/app/542280/Happy_Maze/</li>
    </ul>
    <hr>
